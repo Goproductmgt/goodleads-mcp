@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+<rect width="880" height="520" rx="10" fill="#0d1117"/>
+<circle cx="22" cy="22" r="6" fill="#ff5f56"/><circle cx="42" cy="22" r="6" fill="#ffbd2e"/><circle cx="62" cy="22" r="6" fill="#27c93f"/>
+<text x="440.0" y="27" text-anchor="middle" fill="#8b949e" font-size="13">mcp.goodleads.club/mcp — interpret_list → quote_list (live, reads are free)</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0222;0.0222;1" dur="18.0s" repeatCount="indefinite"/>
+<text x="28" y="62" fill="#e6edf3">$ interpret_list  "50 new cleaning companies in Texas with a phone"</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1222;0.1222;1" dur="18.0s" repeatCount="indefinite"/>
+<text x="28" y="92" fill="#7ee787" font-weight="bold">readback</text>
+<text x="44" y="114" fill="#c9d1d9">New Cleaning Services businesses in Texas; formed in the last 30 days;</text>
+<text x="44" y="136" fill="#c9d1d9">only records with a verified phone; up to 50 records.</text>
+<text x="44" y="158" fill="#8b949e">assumed: no time window named — last 30 days. Say 'last 90 days' to widen.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2778;0.2778;1" dur="18.0s" repeatCount="indefinite"/>
+<text x="28" y="188" fill="#7ee787" font-weight="bold">alternatives</text>
+<text x="44" y="210" fill="#ffd166">● Call this week, newest first: 8 Texas businesses formed in the last 30 days</text>
+<text x="44" y="232" fill="#ffd166">  carry a verified phone — 8 for $4.00   (recommended)</text>
+<text x="44" y="254" fill="#c9d1d9">○ Call this week, 50 records: widen to the last 90 days — 50 for $25.00</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4556;0.4556;1" dur="18.0s" repeatCount="indefinite"/>
+<text x="28" y="284" fill="#e6edf3">$ quote_list  states=["TX"]  filters=[has_phone = true, industry_name in [cleaning],</text>
+<text x="28" y="306" fill="#e6edf3">              formation_date &gt;= 2026-06-12]  cap=50</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5889;0.5889;1" dur="18.0s" repeatCount="indefinite"/>
+<text x="28" y="336" fill="#7ee787" font-weight="bold">counts</text>
+<text x="44" y="358" fill="#c9d1d9">matching 58 · name a person 58 · verified phone 58 · verified email 41</text>
+<text x="44" y="380" fill="#8b949e">reachability: On Fire 38 · Very Hot 3 · Hot 12 · Warm 5</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.7333;0.7333;1" dur="18.0s" repeatCount="indefinite"/>
+<text x="28" y="410" fill="#7ee787" font-weight="bold">quote</text>
+<text x="44" y="432" fill="#ffd166">50 records × $0.50 (verified phone) = $25.00 · most you can be charged $25.00</text>
+<text x="44" y="454" fill="#8b949e">price rule v1 · quote valid until 2026-09-11 12:00 UTC</text>
+<text x="44" y="476" fill="#c9d1d9">→ next: checkout_list → a payment link a person completes; nothing charged until then</text>
+</g>
+</svg>

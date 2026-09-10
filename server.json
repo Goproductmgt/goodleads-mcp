@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "club.goodleads/new-business-owner-contacts",
+  "title": "GoodLeads",
+  "description": "Find new business owner contacts the morning the state posts a filing. Preview free, pay per record.",
+  "version": "1.0.0",
+  "websiteUrl": "https://goodleads.club",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.goodleads.club/mcp"
+    }
+  ]
+}

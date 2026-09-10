@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email support
+    url: mailto:goproductmgt@gmail.com
+    about: Orders, receipts and anything about a record you bought — email, never a public issue.
+  - name: Help page (connect from any client)
+    url: https://app.goodleads.club/connect.html
+    about: Step-by-step for Claude, ChatGPT, Cursor, VS Code, Gemini, Perplexity and Grok.

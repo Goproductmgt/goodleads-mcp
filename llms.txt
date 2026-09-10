@@ -1,0 +1,22 @@
+# GoodLeads MCP server
+
+> Owner contacts for newly formed US businesses, the morning after the state posts the filing. Remote MCP server, no key, no account.
+
+- Door (remote MCP server, Streamable HTTP, stateless): https://mcp.goodleads.club/mcp
+- Agent quick start (start here): https://app.goodleads.club/llms.txt
+- Help page for people, with per-client steps: https://app.goodleads.club/connect.html
+- Registry name: club.goodleads/new-business-owner-contacts (official MCP Registry)
+
+## What it does
+
+- Your agent says who you sell to; GoodLeads quotes the list and hands back a payment link.
+- Buying path: interpret_list -> quote_list -> browse_leads (masked rows) -> checkout_list.
+- Reading is free: real records, names / phones / emails masked. Nothing is charged until a person completes checkout.
+- Prices: name and address $0.25 per record; plus one verified phone or email $0.50; plus both $0.70. Live prices come from the quote, never from copy.
+
+## Links
+
+- Sample file (ten made-up records, every column): https://app.goodleads.club/api/v1/commerce/sample-file?format=xlsx
+- Live states: https://app.goodleads.club/api/v1/leads/states
+- Privacy: https://goodleads.club/privacy.html · Terms: https://goodleads.club/terms.html
+- Support: goproductmgt@gmail.com
