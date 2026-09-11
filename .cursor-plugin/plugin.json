@@ -1,0 +1,13 @@
+{
+  "name": "goodleads",
+  "displayName": "GoodLeads",
+  "version": "1.0.0",
+  "description": "Reach the owner of a newly formed business the morning after the state posts it. Count, price, buy.",
+  "author": {
+    "name": "GoodLeads",
+    "email": "hello@goodleads.club"
+  },
+  "license": "MIT",
+  "keywords": ["sales", "leads", "prospecting", "new-business", "b2b", "mcp"],
+  "logo": "https://goodleads.club/favicon.png"
+}
